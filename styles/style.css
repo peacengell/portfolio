@@ -52,6 +52,29 @@
     padding-right: -10px;
 }
 
+#home {
+    width: 100%;
+    height: 100%;
+    background-color: #CDE3EB;
+    margin-top: -19px;
+    padding-top: 5px; 
+}
+#home p,
+#home h3 
+#home #title {
+    color:rgb(0, 0, 0);
+}
+
+.homepage-div {
+    margin-left: 50px;
+    margin-top: -30px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 25%;
+    height: 25%;
+}
+
+
 #portfolio {
     width: 100%;
     height: 100%;
@@ -59,8 +82,13 @@
     margin-top: -19px;
     padding-top: 5px; 
 }
+#portfolio p,
+#portfolio h3, 
+#portfolio .title{
+    color:#E3EFF3;
+}
 
-.homepage-div {
+.portfolio-div {
     margin-left: 50px;
     margin-top: -30px;
     padding-top: 50px;
@@ -84,4 +112,33 @@
     background-color: #143A52;
     margin-top: -19px;
     padding-top: 5px;
+}
+
+#about p,
+#about h3,
+#about h1,
+#about #title{
+    color:#E3EFF3;
+}
+
+.contact-div {
+    margin-left: 50px;
+    margin-top: -30px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 25%;
+    height: 25%;
+}
+
+#contact {
+    width: 100%;
+    height: 100%;
+    background-color: #CDE3EB;
+    margin-top: -19px;
+    padding-top: 5px;
+}
+
+#contact p,
+#contact h3 {
+    color:rgb(0, 0, 0);
 }
