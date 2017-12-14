@@ -1,5 +1,53 @@
-.navbar {
-    border-radius: 6px;
+.navbar .fixed-top {
+    border-radius: 8px;
     background-color: darkslategrey;
+   
 
+}
+
+.my-title {
+    margin-top: 10px; 
+    padding-top: 10%;
+    color:white;
+    font-size: 30px;
+}
+
+.port {
+    font-family: Courier New, Courier, monospace;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Kaushan+Script';
+
+.gradient-text {
+  position: relative;
+  text-shadow: .15em .15em .35em rgb(252, 226, 226);
+  padding: .10em;
+  &::after {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: radial-gradient(circle at 70% 3%, #aa048b, #bb9801);
+    mix-blend-mode: screen;
+  }
+}
+
+.horizental-colored-line {
+    border: 1px solid; 
+    border-color: rgb(189, 47, 255);
+    margin: 0px;
+  
+}
+
+.top{
+    background-color:lightgrey;
+}
+
+.logo-img {
+    margin-top: 0px;
+    margin-bottom: -20px;
+    margin-right: -50px;
+    padding-right: -10px;
 }
