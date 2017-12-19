@@ -120,6 +120,7 @@
 #about h3,
 #about h1,
 #about #title{
+    margin-top: 115px;
     color:#E3EFF3;
 }
 
@@ -129,7 +130,7 @@
     padding-top: 50px;
     padding-right: 50px;
     padding-bottom: 25%;
-    height: 25%;
+    height: 20%;
 }
 
 #contact {
@@ -141,6 +142,9 @@
 }
 
 #contact p,
-#contact h3 {
+#contact h3,
+#contact h1, 
+#contact #title {
+    margin-top: 115px;
     color:rgb(0, 0, 0);
 }
