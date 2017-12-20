@@ -94,8 +94,18 @@
     margin-top: -10px;
     padding-top: 5px; 
 }
-#portfolio p,
-#portfolio h3, 
+#portfolio p{
+    margin-top: -25px;
+    padding-top: 35px;
+    color:#E3EFF3;
+}
+
+.portfolio-h3 {
+    margin-top: -25px;
+    padding-top: 115px;
+    color:#E3EFF3;
+}
+
 #portfolio .title{
     margin-top: 115px;
     color:#E3EFF3;
@@ -127,12 +137,30 @@
     padding-top: 5px;
 }
 
-#about p,
-#about h3,
+#about p {
+    margin-top: -25px;
+    padding-top: 35px;
+    color:rgb(0, 0, 0);
+}
+
+#about h3 {
+    margin-top: -25px;
+    padding-top: 35px;
+    color:rgb(0, 0, 0);
+}
+
+
 #about h1,
 #about #title{
     margin-top: 115px;
     /* color:#E3EFF3; */
+    color:rgb(0, 0, 0);
+}
+
+
+.about-h3 {
+    margin-top: -45px;
+    padding-top: 35px;
     color:rgb(0, 0, 0);
 }
 
