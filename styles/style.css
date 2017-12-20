@@ -144,8 +144,8 @@
 }
 
 #about h3 {
-    margin-top: -25px;
-    padding-top: 35px;
+    margin-top: -5px;
+    padding-top: 65px;
     color:rgb(0, 0, 0);
 }
 
@@ -158,11 +158,6 @@
 }
 
 
-.about-h3 {
-    margin-top: -45px;
-    padding-top: 35px;
-    color:rgb(0, 0, 0);
-}
 
 .contact-div {
     margin-left: 50px;
@@ -181,10 +176,17 @@
     padding-top: 5px;
 }
 
-#contact p,
 #contact h3,
-#contact h1, 
-#contact #title {
-    margin-top: 115px;
-    color:rgb(0, 0, 0);
+#contact p {
+    margin-top: 15px;
+    padding-top: 15px;
+    color:rgb(255, 251, 251);
+}
+
+
+
+#contact .title {
+    margin-top: 110px;
+    padding-top: 15px;
+    color:rgb(255, 255, 255);
 }
