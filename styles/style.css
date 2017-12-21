@@ -165,34 +165,79 @@
     height: 20%;
 }
 
+
 #contact {
     width: 100%;
     height: 100%;
     background-color:  #6E828A;
+    width:90%;
     margin-top: -19px;
     padding-top: 5px;
+    align-self: center;
 }
+
+#contact2 {
+    height:100%;
+    width: 11%;
+    background-color: rgb(255, 2, 2);
+    margin-top: -760px;
+    padding-top: 5px;
+    align-self: left;
+    margin-left: 89%;
+}
+
+
 
 #contact h3  {
-
     margin-top: 15px;
     padding-left: 155px;
-    padding-top: 15px;
+    padding-top: 10px;
     color:rgb(255, 251, 251);
 }
 
-#contact p {
-    margin-top: 15px;
-    padding-top: 15px;
-    padding-left: 155px;
-    color:rgb(255, 251, 251);
-    width: 500px;
-    height: 150px;
-    align-content: center;
-}
+
 
 #contact .title {
     margin-top: 100px;
     padding-top: 15px;
     color:rgb(255, 255, 255);
 }
+
+.contact-line {
+    color: rgb(255, 255, 255);
+    border-top-width:  10px;
+    background: rgb(255, 255, 255);
+    width:350px;
+    height: 1px;
+    border: 1px;
+    margin-left: -250px; 
+    margin-top: 30px;
+    padding-top: 3.5px; 
+
+}
+.contact-line2 {
+    color: rgb(255, 255, 255);
+    border-top-width:  10px;
+    background: rgb(255, 255, 255);
+    width:900px;
+    height: 1px;
+    border: 1px;
+    margin-left: 550px; 
+    margin-top: 20px;
+    padding-top: 2.5px; 
+
+}
+
+.contact-info{
+
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-left: 255px;
+    color:rgb(255, 251, 251);
+    width: 500px;
+    height: 150px;
+    align-content: center;
+    text-align: center ;
+}
+
+
