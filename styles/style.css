@@ -177,13 +177,13 @@
 }
 
 #contact2 {
-    height:100%;
-    width: 11%;
-    background-color: rgb(255, 2, 2);
-    margin-top: -760px;
+
+    background-color:aqua;
+    margin-top: -782px;
     padding-top: 5px;
-    align-self: left;
     margin-left: 89%;
+    color: grey;
+    height: 100%;
 }
 
 
