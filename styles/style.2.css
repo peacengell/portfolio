@@ -1,0 +1,46 @@
+.top-logo {
+    height: 50px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+
+.top-left-nav {
+    margin-left: 80%;
+    padding-top: 5px;
+    border-radius: 10px;
+    color: grey;
+}
+
+.home-page {
+     margin-top: 45px;
+}
+
+.home-page-title {
+    margin-top: 7%;
+    text-align: center;
+}
+
+.hompage-h3 {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.homepage-p {
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.navbar-inverse {
+    background:white;
+}
+
+a:hover {
+    color: black;
+    background-color:transparent;
+}
+a {
+    color: #00087b;
+}
