@@ -1,13 +1,19 @@
+body {
+    background-color: #aaa;
+
+}
+
+
 
 .top-logo {
-    height: 50px;
+    height: 60px;
     width: 250px;
     margin-left: 10px;
     margin-top: 5px;
     border-radius: 8px;
 }
 
-.logo-img {
+.logo-img{
     margin-top: 5px;
     margin-bottom: -30px;
     margin-right: -30px;
@@ -25,7 +31,8 @@
 
 .home-page {
      margin-top: 45px;
-     background-color:aqua;
+    background-color: #aaa;
+
 }
 
 .home-page-title {
@@ -53,7 +60,8 @@
 
 
 .navbar-inverse {
-    background:white;
+    background:#aaa;
+
 }
 
 
