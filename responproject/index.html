@@ -5,10 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>My Resproject</title>
+    <title>Resproject</title>
 
     <!-- Bootstrap -->
     <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/resproject.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) START -->
+        <script src="scripts/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="scripts/bootstrap.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) END -->
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,14 +24,106 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+
+    <!-- This below jquery for showing width display Start -->
+    <script>
+      // Toggle for width display
+      var shoWidth = 1 ;
+      if (shoWidth == 1) {
+        $(document).ready(function() {
+          $(window).resize(function() {
+            var width = $(window).width();
+            document.getElementById('output_width').innerHTML="Window Width : "+width.toString();
+          });
+        });
+      }
+    </script>
+    <!-- This below jquery for showing width display End -->
+
   </head>
   <body>
-    <h1>Hello, world!</h1>
+      <div id="output_width" class="show-width"></div>
+      <div id="container">
+        <header class="main-header">
+          <img id="logo" src="images/logo.png" alt="Resproject" />
+          <nav class="main-nav">
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="scripts/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="scripts/bootstrap.min.js"></script>
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#">Learn</a></li>
+              <li><a href="#">Brainstorm</a></li>
+              <li><a href="#">Create</a></li>
+              <li><a href="#">Collaborate</a></li>
+              <li><a href="#">Teach</a></li>
+            </ul>
+
+          </nav>
+        </header>
+        <div id="main">
+            <div id="content">
+              <article class="art1">
+                <header class="art-header">
+                  <h2 class="title"><a href="#">First Post</a></h2>
+                  <span>Created by: Brad Traversy on October 7, 2013</span>
+                </header>
+                <p>
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                    has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+                    was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                    desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    <a class="readmore" href="#">Read more</a>                </p>
+              </article>
+              <article class="art2">
+                  <header class="art-header">
+                    <h2 class="title"><a href="#">Second Post</a></h2>
+                    <span>Created by: Bado Tylor on December 25, 2015</span>
+                  </header>
+                  <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                    here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use
+                    Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                      <a class="readmore" href="#">Read more</a>                </p>
+                </article>
+            </div>
+            <aside id="sidebar">
+              <div class="block">
+                <h2>Top Sidebar</h2>
+                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                  interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+                  Cicero are also reproduced in their exact original form, accompanied by English
+                  versions from the 1914 translation by H. Rackham.
+                </p>
+              </div>
+
+              <div class="block">
+                  <h2>Top Sidebar</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum laoreet dui
+                    et varius. Sed et placerat risus, ac sagittis lectus. Phasellus at magna a lacus
+                    euismod faucibus. Etiam varius nunc tincidunt massa dignissim, non elementum ligula
+                    elementum. Suspendisse mattis finibus est ut pulvinar. Suspendisse potenti. Proin
+                    ultricies convallis nisi.
+                  </p>
+                </div>
+
+                <div class="block">
+                    <h2>Top Sidebar</h2>
+                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                      interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+                      Cicero are also reproduced in their exact original form, accompanied by English
+                      versions from the 1914 translation by H. Rackham.
+                    </p>
+                  </div>
+            </aside>
+        </div>
+        <div class="clr"></div>
+
+        <footer>
+          <p>Copyright &copy; 2017 Resproject</p>
+        </footer>
+
+      </div>
+
   </body>
 </html>
