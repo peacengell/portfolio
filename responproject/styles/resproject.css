@@ -1,5 +1,87 @@
 .show-width {
 color:red;
 font-size: 22px;
+}
 
+body {
+    background:#cecece url(../images/sos.png) repeat;
+    font-size:87.5%;
+    font-family: Arial, sans-serif;
+    color:#666666;
+    line-height: 1.7em;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color:#781a26;
+
+}
+
+a:hover{
+    color:#6666;
+
+}
+h2{
+    color:#781a26;
+
+}
+
+.clr{
+    clear:both;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+    clear:both;
+
+}
+
+.main-header #logo{
+    width:45%;
+    margin:10px 0;
+}
+
+.main-header .main-nav{
+    background-attachment:#882433;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px #c13046 solid;
+}
+
+.main-header .main-nave ul{
+    list-style:none;
+    margin:0;
+    padding: 0;
+
+}
+
+.main-header .main-nav li{
+    color: #ffffff;
+    display: inline;
+    float:left;
+    margin-right: 3px;
+}
+
+
+.main-header .main-nav li a{
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 10px;
+    height:20px;
+}
+
+
+
+#content {
+    width:70%;
+    float:left;
+    overflow: auto;
+}
+
+#sidebar {
+    width:30%;
+    float:left;
 }
