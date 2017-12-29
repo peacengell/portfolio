@@ -61,7 +61,6 @@ h2{
 
 .main-header .main-nav li {
     display:inline;
-    float:left;
     margin-right: 3px;
 }
 
@@ -83,6 +82,7 @@ h2{
     width:70%;
     float:left;
     overflow: auto;
+    transition: 1s;
 }
 
 #content article{
@@ -152,11 +152,14 @@ footer p {
     #container {
         width: 95%;
     }
+
     .main-header img#logo{
         margin:auto;
         display:block;
         width:65%;
     }
+
+
     #sidebar {
         width:100%;
         float:none;
@@ -253,3 +256,4 @@ footer p {
 
     display: block;
     }
+}
