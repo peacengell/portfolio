@@ -159,6 +159,10 @@ footer p {
         width:65%;
     }
 
+    .main-header .main-nav{
+        display:block;
+        transition: height 1s;
+    }
 
     #sidebar {
         width:100%;
@@ -183,6 +187,7 @@ footer p {
         display: block;
         overflow: hidden;
         width: 95%;
+        transition: width 1s;
     }
 
     .main-header .main-nav ul {
