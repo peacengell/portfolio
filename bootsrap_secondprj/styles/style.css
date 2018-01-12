@@ -1,6 +1,10 @@
 .img-small {
-    width: 70px;
-    height: 250%;
+    width: 37%;
     margin-top: 0px;
-    margin-left: -5px;
+    margin-left: -10px;
+}
+
+.top-bar{
+    height: 5px;
+    background-color: red
 }
