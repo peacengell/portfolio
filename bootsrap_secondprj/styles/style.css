@@ -44,8 +44,81 @@
 
 }
 
-.jumbotron h1{
+.jumbotron h1 {
     font-size: 34px;
     border-bottom: white solid 1px;
     padding-bottom: 10px;
+}
+
+.bluebox {
+    background:#2e98cc;
+    overflow:hidden;
+    height:240px;
+    color: white;
+    padding:0 10px;
+    font-size: 120%;
+}
+
+.bluebox a.readmore {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    background: #2b8cbc;
+    padding:10px 15px;
+    color: white;
+
+}
+
+.bluebox a.readmore:hover {
+
+    background: #2079d2;
+
+}
+
+
+.redbox {
+    background:#ca2129;
+    overflow:hidden;
+    height:240px;
+    color: white;
+    padding:0 10px;
+    font-size: 120%;
+}
+
+.redbox a.readmore {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    background: #bf1e26;
+    padding:10px 15px;
+    color: white;
+
+}
+
+.redbox a.readmore:hover {
+    background: #86161b;
+}
+
+.pad-top10{
+    padding-top: 10px;
+
+}
+
+.pad-top20{
+    padding-top: 20px;
+
+}
+.pad-top30{
+    padding-top: 30px;
+
+}
+
+
+.media-body {
+    font-size: 120%;
+}
+
+.panel-default>.panel-heading {
+    background:#2e98cc;
+    color: white;
 }
