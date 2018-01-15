@@ -217,6 +217,14 @@ iframe.gmap {
     background: #f4f4f4 !important;
 }
 
+#toolstips1, #toolstips2 {
+    color: #ffffff;
+    border-bottom: dotted 1px #ffffff;
+    padding-bottom: 2px;
+}
+#toolstips1:hover, #toolstips2:hover {
+ text-decoration: none;
+}
 
 footer {
 
