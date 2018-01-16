@@ -57,8 +57,115 @@
                             </div>
                             <button type="submit" class="btn btn-default">Submit</button>
                         </form>
-                        <li class="login"><a href="#">Login</a></li>
-                    <li class="register"><a href="#">Register</a></li>
+<!-- Login and Register Button -->
+<li  class="login" data-toggle="modal" data-target="#loginModal"><a href="#">Login</a></li>
+<li class="register" data-toggle="modal" data-target="#regModal" ><a href="#">Register</a></li>
+<!-- Login and Register Button -->
+</ul>
+
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+<!-- End Nav Bar -->
+
+<!-- Start loginModal -->
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="loginModalLabel">Login Form</h4>
+</div>
+<div class="modal-body">
+<form class="form-horizontal">
+<div class="form-group">
+  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+  <div class="col-sm-10">
+    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+  </div>
+</div>
+<div class="form-group">
+  <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+  <div class="col-sm-10">
+    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+  </div>
+</div>
+<div class="form-group">
+  <div class="col-sm-offset-2 col-sm-10">
+    <div class="checkbox">
+      <label>
+        <input type="checkbox"> Remember me
+      </label>
+    </div>
+  </div>
+</div>
+</form>
+</div>
+<div class="modal-footer">
+<div class="form-group">
+<div class="col-sm-offset-2 col-sm-10">
+  <button type="submit" class="btn btn-default">Sign in</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--End loginModal -->
+
+<!-- Start RegModal -->
+
+<!-- Modal -->
+<div class="modal fade" id="regModal" tabindex="-1" role="dialog" aria-labelledby="regModalLabel">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="regModalLabel">Register</h4>
+</div>
+<div class="modal-body">
+<form class="form-horizontal">
+<div class="form-group">
+  <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+  <div class="col-sm-10">
+    <input type="email" class="form-control" id="inputEmail3" placeholder="Enter Name">
+  </div>
+</div>
+<div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+<div class="form-group">
+  <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+  <div class="col-sm-10">
+    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+  </div>
+</div>
+<div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Confirm Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Confirm Password">
+    </div>
+  </div>
+</form>
+</div>
+<div class="modal-footer">
+<div class="form-group">
+<div class="col-sm-offset-2 col-sm-10">
+  <button type="submit" class="btn btn-default">Sign Up</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--End RegModal -->
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
@@ -68,7 +175,7 @@
                     <div id="contact" class="well">
                         <iframe class="gmap" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7486.692173389281!2d57.4847334222568!3d-20.24447664571344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217c5ae18a9d1c61%3A0x8dc24041a70fcee9!2sHennessy+Park+Hotel!5e0!3m2!1sen!2smu!4v1516018337918"></iframe><br />
                         <br><br>
-                        <button id="address" href="#" class="btn btn-lg btn-primary" data-toggle="popover" title="Address" data-content="89 West Main st, Merrimac MA 01860" role="button">Get Address</button>
+                        <button id="address" href="#" class="btn btn-lg btn-primary" data-toggle="popover" title="Address" data-content="Hennessy Park Hotel, 65 Cybercity, Ebene" role="button">Get Address</button>
                         <br><br>
                         <h3>Contact Us</h3>
                         <p>Please use the form below to contact us</p>
