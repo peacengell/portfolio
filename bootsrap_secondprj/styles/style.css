@@ -189,9 +189,13 @@ li.register a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .na
     font-size: 120%;
 }
 
-.panel-default>.panel-heading {
-    background:#2e98cc;
-    color: white;
+.panel a:hover{
+    text-decoration: none;
+}
+
+.panel-blue-heading {
+    background:#2e98cc !important;
+    color: white !important;
 }
 
 .list-group-item.active, .list-group-item.active:hover {
@@ -230,6 +234,7 @@ iframe.gmap {
 .tab-pane {
     padding-top: 10px;
 }
+
 
 
 footer {
