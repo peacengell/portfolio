@@ -222,9 +222,15 @@ iframe.gmap {
     border-bottom: dotted 1px #ffffff;
     padding-bottom: 2px;
 }
+
 #toolstips1:hover, #toolstips2:hover {
  text-decoration: none;
 }
+
+.tab-pane {
+    padding-top: 10px;
+}
+
 
 footer {
 
