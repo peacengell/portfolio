@@ -1,0 +1,83 @@
+.img-brand {
+    width: 60px;
+    height: 40px;
+    margin-top: -10px;
+}
+
+.top-nav {
+    border: 5px solid #786D5F;
+}
+
+li.about {
+    width: 100px;
+}
+
+li.about>a:hover{
+    height: 50px;
+    width: 80px;
+    background: lightseagreen;
+    margin: 2px;
+    float: left;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #fff !important;
+    -webkit-transform: scale(1.1);
+    background: #1c0caf59 !important;
+    border-radius: 8px;
+}
+
+.contactus {
+    width: 100px;
+}
+
+li.contactus>a:hover {
+    height: 50px;
+    width: 80px;
+    background: lightseagreen;
+    margin: 2px;
+    float: left;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #fff !important;
+    -webkit-transform: scale(1.1);
+    background: #1c0caf59 !important;
+    border-radius: 8px;
+
+}
+
+.portfolio {
+    width: 100px;
+}
+
+li.portfolio>a:hover {
+    height: 50px;
+    width: 80px;
+    background: lightseagreen;
+    margin: 2px;
+    float: left;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition: all 0.5s ease-in-out;
+    border: 0px;
+    color: #fff !important;
+    -webkit-transform: scale(1.1);
+    background: #1c0caf59 !important;
+    border-radius: 8px;
+}
+
+.navbar-color{
+    background-color: violet !important;
+    color: white !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+body {
+    font: 400 1.4rem 'Lato', Verdana, Helvetica, sans-serif;
+}
+
+
+
