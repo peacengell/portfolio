@@ -79,5 +79,10 @@ body {
     font: 400 1.4rem 'Lato', Verdana, Helvetica, sans-serif;
 }
 
+.well-size {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
 
 
