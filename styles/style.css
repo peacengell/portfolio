@@ -19,7 +19,7 @@ li.about {
 
 li.about>a:hover{
     height: 50px;
-    width: 80px;
+    width: 100px;
     background: lightseagreen;
     margin: 2px;
     float: left;
@@ -27,8 +27,8 @@ li.about>a:hover{
     -webkit-transition: all 0.5s ease-in-out;
     border: 0px;
     color: #fff !important;
-    -webkit-transform: scale(1.1);
-    background: #1c0caf59 !important;
+    -webkit-transform: scale(1.0);
+    background: #C70039 !important;
     border-radius: 8px;
 }
 
@@ -38,7 +38,7 @@ li.about>a:hover{
 
 li.contactus>a:hover {
     height: 50px;
-    width: 80px;
+    width: 100px;
     background: lightseagreen;
     margin: 2px;
     float: left;
@@ -46,8 +46,8 @@ li.contactus>a:hover {
     -webkit-transition: all 0.5s ease-in-out;
     border: 0px;
     color: #fff !important;
-    -webkit-transform: scale(1.1);
-    background: #1c0caf59 !important;
+    -webkit-transform: scale(1.0);
+    background: #C70039 !important;
     border-radius: 8px;
 
 }
@@ -58,7 +58,7 @@ li.contactus>a:hover {
 
 li.portfolio>a:hover {
     height: 50px;
-    width: 80px;
+    width: 100px;
     background: lightseagreen;
     margin: 2px;
     float: left;
@@ -66,13 +66,13 @@ li.portfolio>a:hover {
     -webkit-transition: all 0.5s ease-in-out;
     border: 0px;
     color: #fff !important;
-    -webkit-transform: scale(1.1);
-    background: #1c0caf59 !important;
+    -webkit-transform: scale(1.0);
+    background: #C70039  !important;
     border-radius: 8px;
 }
 
 .navbar-color{
-    background-color: violet !important;
+    background-color: #1B4F72  !important;
     color: white !important;
 }
 
