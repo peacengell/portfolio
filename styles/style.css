@@ -1,3 +1,8 @@
+body {
+
+    background-color: #1B4F72;
+}
+
 .img-brand {
     width: 60px;
     height: 40px;
@@ -5,71 +10,44 @@
 }
 
 .top-nav {
-    border: 5px solid #786D5F;
+    border: 4px solid #DC143C;
 }
 
 .bottom-nav {
-    border: 2px solid #786D5F;
-    margin-top:-18px;
+    border: 3px solid #786D5F;
+    margin-top:-22px;
 }
 
 li.about {
     width: 100px;
 }
 
-li.about>a:hover{
-    height: 50px;
-    width: 100px;
-    background: lightseagreen;
-    margin: 2px;
-    float: left;
-    box-shadow: 0 0 1px #ccc;
-    -webkit-transition: all 0.5s ease-in-out;
-    border: 0px;
-    color: #fff !important;
-    -webkit-transform: scale(1.0);
-    background: #C70039 !important;
-    border-radius: 8px;
-}
-
 .contactus {
     width: 100px;
-}
-
-li.contactus>a:hover {
-    height: 50px;
-    width: 100px;
-    background: lightseagreen;
-    margin: 2px;
-    float: left;
-    box-shadow: 0 0 1px #ccc;
-    -webkit-transition: all 0.5s ease-in-out;
-    border: 0px;
-    color: #fff !important;
-    -webkit-transform: scale(1.0);
-    background: #C70039 !important;
-    border-radius: 8px;
-
 }
 
 .portfolio {
     width: 100px;
 }
 
-li.portfolio>a:hover {
+li.portfolio>a:hover,
+li.contactus>a:hover,
+li.about>a:hover
+ {
     height: 50px;
     width: 100px;
-    background: lightseagreen;
+    background: rgba(26, 25, 25, 0.63);
     margin: 2px;
     float: left;
-    box-shadow: 0 0 1px #ccc;
+    box-shadow: 0 0 1px rgba(204, 204, 204, 0.356);
     -webkit-transition: all 0.5s ease-in-out;
     border: 0px;
     color: #fff !important;
-    -webkit-transform: scale(1.0);
-    background: #C70039  !important;
+    -webkit-transform: scale(1);
+    background: #302a28b2  !important;
     border-radius: 8px;
 }
+
 
 .navbar-color{
     background-color: #1B4F72  !important;
@@ -89,6 +67,35 @@ body {
     margin-right: 20px;
     margin-top: 20px;
 
+}
+
+.my-image {
+    border:  5px solid #0000007e;
+    border-radius: 8px ;
+}
+
+.left-info h1{
+    color: #786D5F;
+    font-family: fantasy;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+    margin-left: 25px;
+
+}
+.left-info {
+    margin-top: 40px;
+    /*border:  5px solid #1900fcd7;
+    border-radius: 8px ;
+**/
+    width: 35%;
+    height: 300px;
+}
+
+.left-info h5 {
+    color: rgb(112, 112, 112);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 25px;
 }
 
 
